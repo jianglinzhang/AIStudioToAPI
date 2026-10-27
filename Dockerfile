@@ -1,5 +1,5 @@
-# Single-stage build with Node.js 24
-FROM node:24-slim
+# Node.js 24.22.1 includes the October 2026 security fixes (issue #294).
+FROM node:24.22.1-slim
 
 WORKDIR /app
 
